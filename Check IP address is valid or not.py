@@ -17,6 +17,7 @@ def check_valid_IP(ip):
 
     >>> check_valid_IP(192.255.15.8)
     192.168 is an valid IP address
+    
     """
     ip1 = (ip.replace(".", " "))
     list1 = [int(i) for i in ip1.split() if i.isdigit()]
