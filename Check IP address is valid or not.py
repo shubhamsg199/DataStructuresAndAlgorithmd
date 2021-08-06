@@ -1,7 +1,6 @@
 
 """
 Checking valid Ip Address.
-An IP address is a unique address that identifies a device on the internet or a local network.
 A valid IP address must be in the form of A.B.C.D, where A,B,C and D are numbers from 0-254
 
 for example: 192.168.23.1, 192.254.254.254, 192.168.76.45 are valid IP address
@@ -9,7 +8,9 @@ for example: 192.168.23.1, 192.254.254.254, 192.168.76.45 are valid IP address
 """
 def check_valid_IP(ip):
     """
-    print "Valid IP adddress" if IP is valid or Invalid IP address Invalid
+    print "Valid IP adddress" If IP is valid.
+    or
+    print "Invalid IP address" If IP is Invalid.
 
     >>> check_valid_IP(192.168.0.23)
     192.168 is an valid IP address
